@@ -1,0 +1,168 @@
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+body {
+  border-left: 5px solid lightgray;
+}
+
+header {
+  align-items: left;
+  margin-top: 3rem;
+}
+
+h1, #sub-title {
+  display: inline-flex;
+  font-weight: 300;
+}
+
+#title-link {
+  color: red;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 4rem;
+}
+
+#sub-title {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: grey;
+}
+nav{
+  display:flex;
+}
+
+#nav-list {
+  flex-grow:1;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: black;
+  padding-inline-start: 0;
+  /* margin-top: .5rem; */
+}
+
+.nav-list-item {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  padding: .5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-left: 1px solid white;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.article-title {
+  margin: 0;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+.article-link {
+  font-weight: 300;
+  text-decoration: none;
+  color:black;
+  margin-left: 2rem;
+}
+
+time {
+  color: grey;
+  display: inline;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-text::first-letter {
+  float: left;
+  color: lightgray;
+  font-size: 90px;
+  line-height: 75px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.continue-text {
+  text-align: right;
+}
+
+.continue {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+#post-title {
+  color: grey;
+  font-weight: bold;
+}
+
+#post-list .post-list-item::before {
+  content: "\2022";
+  color:grey;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.1em;
+}
+
+.post-list-item {
+  background-color: white;
+}
+
+.post-link {
+  text-decoration: none;
+  color: red;
+}
+
+.about-section {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 1rem;
+}
+
+.about-title, .about {
+  color: gray;
+}
+
+.container {
+  display: flex;
+}
+
+.box-1 {
+  /* flex: 3; */
+  margin-left: 4rem;
+}
+
+.box-2 {
+  /* flex: 1; */
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+footer {
+  margin-left: 2rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: red;
+}
+
+.copyright {
+  color: lightgray;
+}
