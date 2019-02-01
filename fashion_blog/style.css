@@ -12,7 +12,8 @@ header {
   margin-top: 3rem;
 }
 
-h1, #sub-title {
+h1,
+#sub-title {
   display: inline-flex;
   font-weight: 300;
 }
@@ -30,17 +31,19 @@ h1, #sub-title {
   margin-left: 1rem;
   color: grey;
 }
-nav{
-  display:flex;
+
+nav {
+  display: flex;
 }
 
 #nav-list {
-  flex-grow:1;
+  flex-grow: 1;
   display: inline-flex;
   justify-content: space-between;
   background-color: black;
   padding-inline-start: 0;
-  /* margin-top: .5rem; */
+  margin-left: 2rem;
+  margin-top: 0;
 }
 
 .nav-list-item {
@@ -70,15 +73,14 @@ nav{
 .article-link {
   font-weight: 300;
   text-decoration: none;
-  color:black;
-  margin-left: 2rem;
+  color: black;
+  font-size: 2rem;
 }
 
 time {
   color: grey;
   display: inline;
-  margin-left: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 img {
@@ -99,6 +101,8 @@ img {
 
 .continue-text {
   text-align: right;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 25px;
 }
 
 .continue {
@@ -114,11 +118,12 @@ img {
 
 #post-list .post-list-item::before {
   content: "\2022";
-  color:grey;
+  color: grey;
   font-weight: bold;
   display: inline-block;
-  width: 1em;
-  margin-left: -1.1em;
+  width: 1.2em;
+  margin-left: -25px;
+  margin-bottom: 12px;
 }
 
 .post-list-item {
@@ -131,12 +136,17 @@ img {
 }
 
 .about-section {
-  border-bottom: 1px solid lightgray;
   margin-bottom: 1rem;
 }
 
-.about-title, .about {
+.about-title,
+.about {
   color: gray;
+}
+
+.ad {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 25px;
 }
 
 .container {
@@ -156,6 +166,7 @@ img {
 
 footer {
   margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 .footer-link {
